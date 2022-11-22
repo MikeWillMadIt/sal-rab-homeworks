@@ -5,12 +5,12 @@ function renderCartItem(item) {
 
     let itemCountText = " ";
 itemCountText += product.count;
-itemCountText += " x ";
+itemCountText += ` × `;
 itemCountText += product.price;
-itemCountText += " ₽ = ";
+itemCountText += ` ₽ = `;
 let sum = product.count * product.price;
 itemCountText += sum;
-itemCountText += " ₽";
+itemCountText += ` ₽`;
 
     // Конец решения задания №3.1.
 
